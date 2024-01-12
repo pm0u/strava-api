@@ -26,6 +26,9 @@
     "OAuth2",
     "Client"
   ],
+  "files": [
+    "dist"
+  ],
   "author": "Paul P Mourer",
   "license": "Apache-2.0",
   "bugs": {
