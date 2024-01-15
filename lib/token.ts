@@ -1,12 +1,12 @@
 const axios = require("axios");
 
 export class Token {
-  private token_type: "Bearer";
-  private expires_at: number;
-  private expires_in: number;
-  private refresh_token: string;
-  private access_token: string;
-  private athlete: object;
+  public readonly token_type: "Bearer";
+  public readonly expires_at: number;
+  public readonly expires_in: number;
+  public readonly refresh_token: string;
+  public readonly access_token: string;
+  public readonly athlete: object;
 
   constructor(
     token_type: "Bearer",
