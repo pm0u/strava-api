@@ -16,7 +16,7 @@ export class Token {
     expires_in: number,
     refresh_token: string,
     access_token: string,
-    athlete: object
+    athlete: SummaryAthlete
   ) {
     this.token_type = token_type;
     this.expires_at = expires_at;
