@@ -1,3 +1,5 @@
+import type { SummaryAthlete } from "../types/token";
+
 const axios = require("axios");
 
 export class Token {
@@ -6,7 +8,7 @@ export class Token {
   public readonly expires_in: number;
   public readonly refresh_token: string;
   public readonly access_token: string;
-  public readonly athlete: object;
+  public readonly athlete: SummaryAthlete;
 
   constructor(
     token_type: "Bearer",
